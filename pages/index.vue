@@ -9,7 +9,7 @@
             </div>
             <button class="bg-gray-600 px-10 py-2 text-xl text-white mx-auto rounded-lg hover:bg-blue-gray-700 uppercase" @click="gerarNumeros">Gera números</button>
         </div>
-        
+        <small class="text-gray-800 absolute bottom-2 right-1/2 translate-x-1/2 text-xs">Desenvolvido por <a href="https://www.instagram.com/diegooliveira2504" class="underline" target="_blank"> Diego oliveira </a></small>
     </div>
 </template>
 <script setup>
