@@ -22,7 +22,7 @@ const numeros = ref([
     0,
     0
 ]);
-
+const count = ref(0);
 function gerarNumeros() {
   const numbers = new Set();
   while (numbers.size < 6) {
@@ -30,7 +30,12 @@ function gerarNumeros() {
     numbers.add(n < 10 ? `0${n}` : n);
   }
   numeros.value = Array.from(numbers); 
-  startParticles();
+
+  if(count.value == 0){
+    startParticles();
+    count.value = 1;
+  }
+  
 }
 
 </script>
