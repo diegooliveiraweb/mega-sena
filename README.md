@@ -1,6 +1,6 @@
 ##Demo
 
-mega-sena-gerador.vercel.app/
+[mega-sena-gerador.vercel.app/](https://mega-sena-gerador.vercel.app/)
 
 
 # Nuxt 3 Minimal Starter
